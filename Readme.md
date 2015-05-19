@@ -25,6 +25,20 @@ Some of the features of the Surf package:
 > Surf ist still work-in-progress. API and options are subject to
 > change.
 
+Building the phar
+-----------------
+
+```
+# Install box globally (remember to add ~/.composer/vendor/bin to $PATH)
+~$ curl -LSs http://box-project.org/installer.php | php
+
+# Build
+~$ box build
+
+#Test
+~$ php surf.phar
+```
+
 Installation
 ------------
 
